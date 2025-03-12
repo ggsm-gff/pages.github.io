@@ -54,6 +54,7 @@ para lo cual se requiere de la información del FMI/WEO referente e las proyecci
 Para obtener el dato mensual de las variaciones del PIB, se calcula la diferencia entre un año y el siguiente, y esta diferencia se divide entre 12 para distribuirlo uniformemente.
     
     diferencia = (pib_actual - pib_anterior) / 12
+
 Para los meses de Enero a Noviembre, se incrementa el valor actual por el dato que se obtuvo del cálculo anterior.
 
 Para generar los escenarios Pesimista y Optimista, se requiere obtener la desviación estándar de la serie neutral, a esta serie neutral, se le suma una desviación estándar y así se obtiene el escenario Optimista, para el escenario pesimista a la serie neutral se le resta una desviación estándar.
