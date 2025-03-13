@@ -1,5 +1,5 @@
-## Forward Loking
-El conceptop de factor forward looking es ampliamente utilizado en la gestión de riesgos financieros, análisis de crédito, predicción de demanda y otras áreas donde la anticipación es clave para la toma de decisiones estratégicas.
+## Forward Looking
+El concepto de factor forward looking es ampliamente utilizado en la gestión de riesgos financieros, análisis de crédito, predicción de demanda y otras áreas donde la anticipación es clave para la toma de decisiones estratégicas.
 
 Un factor de forward looking es una variable que refleja información relevante sobre eventos o condiciones futuras que podrían afectar un resultado determinado. Estos factores pueden derivarse de múltiples fuentes, como expectativsa del mercado, proyecciones económicas, encuestas de confianza, indicadores adelantados, incluso señales derivadas de modelos de machine learning.
 
