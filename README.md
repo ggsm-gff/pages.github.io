@@ -1,4 +1,10 @@
-# FWL-GFF 
+## Forward Loking
+El conceptop de factor forward looking es ampliamente utilizado en la gestión de riesgos financieros, análisis de crédito, predicción de demanda y otras áreas donde la anticipación es clave para la toma de decisiones estratégicas.
+
+Un factor de forward looking es una variable que refleja información relevante sobre eventos o condiciones futuras que podrían afectar un resultado determinado. Estos factores pueden derivarse de múltiples fuentes, como expectativsa del mercado, proyecciones económicas, encuestas de confianza, indicadores adelantados, incluso señales derivadas de modelos de machine learning.
+
+El uso de factor de forward looking permite a las organizaciones mejorar sus modelos predictivos, reducir riesgos y optimizar la toma de decisiones en entornos inciertos.
+
 
 ## Resumen FWL Tasa Vencidos
 Todo el script se trata de unificar los datos historicos de la cartera crediticia, 
@@ -12,7 +18,7 @@ para lo cual se requiere:
     Tasa Vencidos = Total Vencidas/Total Obligaciones
 
 
-## Resumen FWL Seleccion de Modelo 
+## Resumen FWL Selección de Modelo 
 
 La variable objetivo (variable a predecir) es la tasa de vencidos, para estimar esta variable se consideran otras variables macro que pudieran influir en la tasa de vencidos.
 Para el caso de Honduras se consideran: 
@@ -33,7 +39,7 @@ Estas variables se extraen del portal del SECMCA (ver imagenes)
 
 Para el caso de PIB_var, se toma el dato del PIB trimestral y manualmente se calcula el porcentaje de variación con respecto al dato del año anterior:
 
-    PIB_var = [ PIB(Año 1) - PIB(Año 0) ] / PIB(Año 0)
+$$PIB_{var} = \frac{PIB_{t_1} - PIB_{t_0}}{PIB_{t_0}}$$
 
 Se realiza una interpolación del PIB para tener un dato de manera mensual y poder unificarlo con las demás variables macro.
 
